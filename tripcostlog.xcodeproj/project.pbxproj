@@ -3,27 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1C87EA2256E8AD300900DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C87EA1256E8AD300900DB8 /* AppDelegate.swift */; };
+		9AFC87C06442D145D2DCB4F2 /* Pods_tripcostlog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A896AEDB394FF0D407B581 /* Pods_tripcostlog.framework */; };
+		C126170325AAF19200C7E575 /* SecAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126170225AAF19200C7E575 /* SecAddTableViewController.swift */; };
+		C126170825AB05D200C7E575 /* UiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126170725AB05D100C7E575 /* UiImage.swift */; };
+		C12BD05125E03BF8008EA1BA /* DoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12BD05025E03BF7008EA1BA /* DoneTextField.swift */; };
+		C12BD05425E0C81F008EA1BA /* AutoMarginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12BD05325E0C81F008EA1BA /* AutoMarginLabel.swift */; };
+		C16D5DA025AC1BF60040CB54 /* MoneyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D5D9F25AC1BF60040CB54 /* MoneyDetailViewController.swift */; };
+		C17A9B5D25791314009D15F9 /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A9B5C25791314009D15F9 /* SecondDetailViewController.swift */; };
+		C17A9B67257A14B4009D15F9 /* OverWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A9B66257A14B4009D15F9 /* OverWriteViewController.swift */; };
+		C17A9BE3257BDCE6009D15F9 /* CustomUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A9BE2257BDCE6009D15F9 /* CustomUIDelegate.swift */; };
+		C17F5337257643E0004ED2B9 /* addObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F5336257643E0004ED2B9 /* addObject.swift */; };
+		C17F533A257644CA004ED2B9 /* SecondAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F5339257644CA004ED2B9 /* SecondAddViewController.swift */; };
+		C17F534C2578893D004ED2B9 /* timelineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F534A2578893D004ED2B9 /* timelineCollectionViewCell.swift */; };
+		C17F534D2578893D004ED2B9 /* timelineCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F534B2578893D004ED2B9 /* timelineCollectionViewCell.xib */; };
+		C17F53502578C18B004ED2B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F534F2578C18B004ED2B9 /* HomeViewController.swift */; };
+		C19CC6702636FA0C00B28FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CC66F2636FA0C00B28FC9 /* AppDelegate.swift */; };
+		C19CC6742636FA3000B28FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CC6732636FA3000B28FC9 /* AppDelegate.swift */; };
+		C1A45C1B2598420E00F1B2BA /* SampleAMPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45C1A2598420E00F1B2BA /* SampleAMPViewController.swift */; };
+		C1A45C452599BBC000F1B2BA /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45C442599BBBF00F1B2BA /* Section.swift */; };
+		C1A45C492599BD9400F1B2BA /* ExpandedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45C482599BD9400F1B2BA /* ExpandedHeaderView.swift */; };
+		C1A45C6725A01AC200F1B2BA /* ParchimentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45C6625A01AC200F1B2BA /* ParchimentViewController.swift */; };
+		C1A45CC925A97A9B00F1B2BA /* NewAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45CC825A97A9900F1B2BA /* NewAddTableViewController.swift */; };
+		C1A45CD625A9FA6B00F1B2BA /* keyboardSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A45CD525A9FA6A00F1B2BA /* keyboardSystem.swift */; };
 		C1C87EA4256E8AD300900DB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C87EA3256E8AD300900DB8 /* SceneDelegate.swift */; };
-		C1C87EA6256E8AD300900DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C87EA5256E8AD300900DB8 /* ViewController.swift */; };
 		C1C87EA9256E8AD300900DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C87EA7256E8AD300900DB8 /* Main.storyboard */; };
 		C1C87EAB256E8AD700900DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C87EAA256E8AD700900DB8 /* Assets.xcassets */; };
 		C1C87EAE256E8AD700900DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C87EAC256E8AD700900DB8 /* LaunchScreen.storyboard */; };
+		C1C87EB8256E8B8F00900DB8 /* NewaddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C87EB7256E8B8F00900DB8 /* NewaddViewController.swift */; };
+		C1C87F992574D2EA00900DB8 /* addRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C87F982574D2EA00900DB8 /* addRealm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67A896AEDB394FF0D407B581 /* Pods_tripcostlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tripcostlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C5379817832E5AF9035C02 /* Pods-tripcostlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripcostlog.release.xcconfig"; path = "Target Support Files/Pods-tripcostlog/Pods-tripcostlog.release.xcconfig"; sourceTree = "<group>"; };
+		C126170225AAF19200C7E575 /* SecAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecAddTableViewController.swift; sourceTree = "<group>"; };
+		C126170725AB05D100C7E575 /* UiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiImage.swift; sourceTree = "<group>"; };
+		C12BD05025E03BF7008EA1BA /* DoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTextField.swift; sourceTree = "<group>"; };
+		C12BD05325E0C81F008EA1BA /* AutoMarginLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMarginLabel.swift; sourceTree = "<group>"; };
+		C16D5D9F25AC1BF60040CB54 /* MoneyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyDetailViewController.swift; sourceTree = "<group>"; };
+		C17A9B5C25791314009D15F9 /* SecondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
+		C17A9B66257A14B4009D15F9 /* OverWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverWriteViewController.swift; sourceTree = "<group>"; };
+		C17A9BE2257BDCE6009D15F9 /* CustomUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIDelegate.swift; sourceTree = "<group>"; };
+		C17F5336257643E0004ED2B9 /* addObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addObject.swift; sourceTree = "<group>"; };
+		C17F5339257644CA004ED2B9 /* SecondAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddViewController.swift; sourceTree = "<group>"; };
+		C17F534A2578893D004ED2B9 /* timelineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelineCollectionViewCell.swift; sourceTree = "<group>"; };
+		C17F534B2578893D004ED2B9 /* timelineCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = timelineCollectionViewCell.xib; sourceTree = "<group>"; };
+		C17F534F2578C18B004ED2B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C19CC66F2636FA0C00B28FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19CC6732636FA3000B28FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1A45C1A2598420E00F1B2BA /* SampleAMPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAMPViewController.swift; sourceTree = "<group>"; };
+		C1A45C442599BBBF00F1B2BA /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		C1A45C482599BD9400F1B2BA /* ExpandedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedHeaderView.swift; sourceTree = "<group>"; };
+		C1A45C6625A01AC200F1B2BA /* ParchimentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParchimentViewController.swift; sourceTree = "<group>"; };
+		C1A45CC825A97A9900F1B2BA /* NewAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddTableViewController.swift; sourceTree = "<group>"; };
+		C1A45CD525A9FA6A00F1B2BA /* keyboardSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardSystem.swift; sourceTree = "<group>"; };
 		C1C87E9E256E8AD300900DB8 /* tripcostlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripcostlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C87EA1256E8AD300900DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C87EA3256E8AD300900DB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1C87EA5256E8AD300900DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1C87EA8256E8AD300900DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1C87EAA256E8AD700900DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C87EAD256E8AD700900DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1C87EAF256E8AD700900DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C87EB7256E8B8F00900DB8 /* NewaddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewaddViewController.swift; sourceTree = "<group>"; };
+		C1C87F982574D2EA00900DB8 /* addRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addRealm.swift; sourceTree = "<group>"; };
+		DFE4DCCD1014CD6DD2B1EA50 /* Pods-tripcostlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tripcostlog.debug.xcconfig"; path = "Target Support Files/Pods-tripcostlog/Pods-tripcostlog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFC87C06442D145D2DCB4F2 /* Pods_tripcostlog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2FA5D401F3D6B5C37266A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4DCCD1014CD6DD2B1EA50 /* Pods-tripcostlog.debug.xcconfig */,
+				69C5379817832E5AF9035C02 /* Pods-tripcostlog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1A45C602599DED500F1B2BA /* sampleBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C1A45CD525A9FA6A00F1B2BA /* keyboardSystem.swift */,
+				C1A45C1A2598420E00F1B2BA /* SampleAMPViewController.swift */,
+			);
+			path = sampleBoard;
+			sourceTree = "<group>";
+		};
 		C1C87E95256E8AD300900DB8 = {
 			isa = PBXGroup;
 			children = (
 				C1C87EA0256E8AD300900DB8 /* tripcostlog */,
 				C1C87E9F256E8AD300900DB8 /* Products */,
+				9E2FA5D401F3D6B5C37266A7 /* Pods */,
+				D5D4209EDFA6FF487DB82494 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +123,43 @@
 		C1C87EA0256E8AD300900DB8 /* tripcostlog */ = {
 			isa = PBXGroup;
 			children = (
-				C1C87EA1256E8AD300900DB8 /* AppDelegate.swift */,
+				C1A45C602599DED500F1B2BA /* sampleBoard */,
+				C19CC66F2636FA0C00B28FC9 /* AppDelegate.swift */,
+				C19CC6732636FA3000B28FC9 /* AppDelegate.swift */,
 				C1C87EA3256E8AD300900DB8 /* SceneDelegate.swift */,
-				C1C87EA5256E8AD300900DB8 /* ViewController.swift */,
+				C17F534F2578C18B004ED2B9 /* HomeViewController.swift */,
+				C126170725AB05D100C7E575 /* UiImage.swift */,
+				C1C87F982574D2EA00900DB8 /* addRealm.swift */,
+				C17F5336257643E0004ED2B9 /* addObject.swift */,
+				C1A45C442599BBBF00F1B2BA /* Section.swift */,
+				C12BD05325E0C81F008EA1BA /* AutoMarginLabel.swift */,
+				C17A9BE2257BDCE6009D15F9 /* CustomUIDelegate.swift */,
+				C1A45C6625A01AC200F1B2BA /* ParchimentViewController.swift */,
+				C12BD05025E03BF7008EA1BA /* DoneTextField.swift */,
+				C1A45C482599BD9400F1B2BA /* ExpandedHeaderView.swift */,
+				C17A9B5C25791314009D15F9 /* SecondDetailViewController.swift */,
+				C16D5D9F25AC1BF60040CB54 /* MoneyDetailViewController.swift */,
+				C17F534A2578893D004ED2B9 /* timelineCollectionViewCell.swift */,
+				C1C87EB7256E8B8F00900DB8 /* NewaddViewController.swift */,
+				C1A45CC825A97A9900F1B2BA /* NewAddTableViewController.swift */,
+				C17F5339257644CA004ED2B9 /* SecondAddViewController.swift */,
+				C126170225AAF19200C7E575 /* SecAddTableViewController.swift */,
+				C17A9B66257A14B4009D15F9 /* OverWriteViewController.swift */,
+				C17F534B2578893D004ED2B9 /* timelineCollectionViewCell.xib */,
 				C1C87EA7256E8AD300900DB8 /* Main.storyboard */,
 				C1C87EAA256E8AD700900DB8 /* Assets.xcassets */,
 				C1C87EAC256E8AD700900DB8 /* LaunchScreen.storyboard */,
 				C1C87EAF256E8AD700900DB8 /* Info.plist */,
 			);
 			path = tripcostlog;
+			sourceTree = "<group>";
+		};
+		D5D4209EDFA6FF487DB82494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A896AEDB394FF0D407B581 /* Pods_tripcostlog.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C87EB2256E8AD700900DB8 /* Build configuration list for PBXNativeTarget "tripcostlog" */;
 			buildPhases = (
+				C74A09DA7A1ED83F3EE98677 /* [CP] Check Pods Manifest.lock */,
 				C1C87E9A256E8AD300900DB8 /* Sources */,
 				C1C87E9B256E8AD300900DB8 /* Frameworks */,
 				C1C87E9C256E8AD300900DB8 /* Resources */,
+				A84065788C68C6C86863E2A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +224,82 @@
 				C1C87EAE256E8AD700900DB8 /* LaunchScreen.storyboard in Resources */,
 				C1C87EAB256E8AD700900DB8 /* Assets.xcassets in Resources */,
 				C1C87EA9256E8AD300900DB8 /* Main.storyboard in Resources */,
+				C17F534D2578893D004ED2B9 /* timelineCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A84065788C68C6C86863E2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripcostlog/Pods-tripcostlog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tripcostlog/Pods-tripcostlog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tripcostlog/Pods-tripcostlog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74A09DA7A1ED83F3EE98677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tripcostlog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1C87E9A256E8AD300900DB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C87EA6256E8AD300900DB8 /* ViewController.swift in Sources */,
-				C1C87EA2256E8AD300900DB8 /* AppDelegate.swift in Sources */,
+				C17F534C2578893D004ED2B9 /* timelineCollectionViewCell.swift in Sources */,
+				C1C87F992574D2EA00900DB8 /* addRealm.swift in Sources */,
+				C1A45C6725A01AC200F1B2BA /* ParchimentViewController.swift in Sources */,
+				C1A45C452599BBC000F1B2BA /* Section.swift in Sources */,
+				C1A45C492599BD9400F1B2BA /* ExpandedHeaderView.swift in Sources */,
+				C17A9B5D25791314009D15F9 /* SecondDetailViewController.swift in Sources */,
+				C17F5337257643E0004ED2B9 /* addObject.swift in Sources */,
+				C1A45CC925A97A9B00F1B2BA /* NewAddTableViewController.swift in Sources */,
 				C1C87EA4256E8AD300900DB8 /* SceneDelegate.swift in Sources */,
+				C1A45CD625A9FA6B00F1B2BA /* keyboardSystem.swift in Sources */,
+				C17F533A257644CA004ED2B9 /* SecondAddViewController.swift in Sources */,
+				C17F53502578C18B004ED2B9 /* HomeViewController.swift in Sources */,
+				C12BD05425E0C81F008EA1BA /* AutoMarginLabel.swift in Sources */,
+				C17A9BE3257BDCE6009D15F9 /* CustomUIDelegate.swift in Sources */,
+				C17A9B67257A14B4009D15F9 /* OverWriteViewController.swift in Sources */,
+				C126170325AAF19200C7E575 /* SecAddTableViewController.swift in Sources */,
+				C16D5DA025AC1BF60040CB54 /* MoneyDetailViewController.swift in Sources */,
+				C1A45C1B2598420E00F1B2BA /* SampleAMPViewController.swift in Sources */,
+				C12BD05125E03BF8008EA1BA /* DoneTextField.swift in Sources */,
+				C126170825AB05D200C7E575 /* UiImage.swift in Sources */,
+				C1C87EB8256E8B8F00900DB8 /* NewaddViewController.swift in Sources */,
+				C19CC6702636FA0C00B28FC9 /* AppDelegate.swift in Sources */,
+				C19CC6742636FA3000B28FC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +443,18 @@
 		};
 		C1C87EB3256E8AD700900DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE4DCCD1014CD6DD2B1EA50 /* Pods-tripcostlog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tripcostlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = takari.com.tripcostlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -301,15 +464,18 @@
 		};
 		C1C87EB4256E8AD700900DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C5379817832E5AF9035C02 /* Pods-tripcostlog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tripcostlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = takari.com.tripcostlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
